@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--    <item-->
+<!--        android:id="@+id/action_settings"-->
+<!--        android:orderInCategory="100"-->
+<!--        android:title="Help"-->
+<!--        app:showAsAction="never" />-->
+    <item android:id="@+id/covupdate"
+        android:title="Statistics"
+        android:icon="@drawable/updates"
+        />
+    <item android:id="@+id/geofire"
+        android:title="Location"
+        android:icon="@drawable/geofire"
+        />
+
+    <item android:id="@+id/proximity"
+        android:title="Interactions"
+        android:icon="@drawable/proximity"
+        />
+</menu>
